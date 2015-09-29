@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
@@ -15,8 +15,9 @@
 			print "<div class='box " . $i . "_" . $j . "'></div>";
 		}
 	}
-
 	?>
+
+	<button id="resetButton">reset</button>
 	</div>
 	<script src="js/scripts.js"></script>
 </body>
